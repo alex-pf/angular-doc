@@ -208,7 +208,11 @@ describe('PhoneCat App', function() {
   
   * Вы могли бы подумать, что нужно просто добавить {{query}} в title тег следующим образом:
 
-          <title>Google Phone Gallery: {{query}}</title>
+  <pre>
+    <code>
+      < title class="ng-binding">Google Phone Gallery: </title>
+    </code>
+  </pre>
 
   Однако, когда вы перезагрузите страницу, вы не увидите ожидаемого результата. Это происходит потому, 
   что `query` модель живет в областе видимости (scope), определенной body-элементом:
