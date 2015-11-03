@@ -211,7 +211,7 @@ describe('PhoneCat App', function() {
           <title>Google Phone Gallery: {{query}}</title>
 
   Однако, когда вы перезагрузите страницу, вы не увидите ожидаемого результата. Это происходит потому, 
-  что `query` модель живет в областе видимости (scope), определенной body-элементом:
+  что `query` модель живет в области видимости (scope), определенной body-элементом:
 
           <body ng-controller="PhoneListCtrl">
 
